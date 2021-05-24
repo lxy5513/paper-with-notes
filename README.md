@@ -9,3 +9,6 @@ pose_estimation
 
 ## 实例分割相关
 instance_segmentation
+
+## 小组讨论的主题分享总结
+theme_sharing
