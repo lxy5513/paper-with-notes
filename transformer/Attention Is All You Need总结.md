@@ -12,9 +12,7 @@
 
 ## 结构
 
-![image-20210526172819174](/Users/xingyuliu/Library/Application Support/typora-user-images/image-20210526172819174.png)
-
-
+<img src="https://github.com/lxy5513/typora-image-depositories/blob/main/image-20210526172819174.png" />
 
 ### Encoder
 
@@ -50,11 +48,11 @@
   >
   > - 需要有值域的范围限制。
   >
-  >   <img src="/Users/xingyuliu/Library/Application Support/typora-user-images/image-20210526181605047.png" alt="image-20210526181605047" style="zoom:33%;" />
+  >   <img src="https://github.com/lxy5513/typora-image-depositories/blob/main/image-20210526181605047.png" alt="image-20210526181605047" style="zoom:33%;" />
 
 **第二步：** self-attention 每个向量创建三个向量（Q，K，V），其维度是64 （512/64=8）。
 
-<img src="/Users/xingyuliu/Library/Application Support/typora-user-images/image-20210526192035872.png" alt="image-20210526192035872" style="zoom:33%;" />
+<img src="https://github.com/lxy5513/typora-image-depositories/blob/main/image-20210526192035872.png" alt="image-20210526192035872" style="zoom:33%;" />
 
 - 对于每个单词，将自己和其他单词的$q_i，k_i$分别相乘，并scale（除以$\sqrt{d_k}$), 然后使用softmax归一化， 最后乘以这个单词对应的V向量。
 
